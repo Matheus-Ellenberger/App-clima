@@ -22,7 +22,7 @@
 
 <br>
 <div display="flex">
-<img src="./img/projeto-design.jpeg" alt="projeto" width="240px" height="400px">
+<img src="./img/projeto-design.jpeg" alt="projeto" width="400px" height="300px">
 </div>
 
 <br>
