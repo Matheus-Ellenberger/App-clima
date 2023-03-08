@@ -21,8 +21,8 @@
 ## 📷 Projeto
 
 <br>
-<div display="flex">
-<img src="./img/projeto-design.jpeg" alt="projeto" width="400px" height="300px">
+<div display="flex" align="center">
+<img src="./img/projeto-design.jpeg" alt="projeto" width="600px" height="300px">
 </div>
 
 <br>
