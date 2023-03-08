@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="projeto de verificação do clima envolvendo API">
+    <title>Clima</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    
+    <main id="clima">
+        <div class="container--clima">
+            <span class="info">Confira o clima de uma cidade</span>
+            <div class="pesquisa--cidade">
+                <form>
+                    <input type="text" id="input" placeholder="Digite a cidade..." autocomplete="none">
+                    <button id="btn"><img src="./img/lupa.png" alt="lupa" class="lupa"></button>
+                </form>
+            </div>
+            <div class="name--cidade">
+                <img src="./img/location.png" alt="localização" class="location">
+                <span class="cidade"></span>
+            </div>
+            <span class="temp"></span>
+            <div class="min--max">
+                <span class="min"></span>
+                <span class="max"></span>
+            </div>
+            <div class="umidade--vento">
+                <div class="umidade">
+                    <img src="./img/gota.png" alt="gota" class="gota">
+                    <span class="umidade--valor"></span>
+                </div>
+                <div class="vento">
+                    <img src="./img/vento.png" alt="vento" class="vento--img">
+                    <span class="vento--valor"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/bg.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#clima {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--clima {
+    width: 25rem;
+    height:40rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #d4d4d4;
+    border-radius: 20px;
+}
+
+.info {
+    font-size: 28px;
+}
+
+.pesquisa--cidade {
+    width: 85%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #658d5d;
+    margin-top: -60px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#input {
+    width: 18rem;
+    height: 3rem;
+    font-size: 18px;
+    outline: 0;
+    border:2px solid  #658d5d;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+#btn {
+    width: 3rem;
+    height: 3rem;
+    border:0;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #658d5d;
+}
+
+.name--cidade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+    width: 250px;
+    border-bottom:2px solid  #658d5d;
+}
+
+.cidade {
+    font-size: 40px;
+}
+
+.temp {
+    font-size: 80px;
+}
+
+.min--max {
+    font-size: 25px;
+}
+
+.min {
+    border-right: 1px solid #000;
+    padding-right: 10px;
+}
+
+.umidade--vento {
+    height: 3rem;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+.umidade, .vento {
+    display: flex;
+    align-items: center;
+}
+
+
+.lupa, 
+.gota,
+.vento--img,
+.location {
+    width: 1.5rem;
+}
